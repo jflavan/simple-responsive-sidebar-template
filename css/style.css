@@ -16,6 +16,12 @@ html,body {
     padding: 0px;
 }
 
+html, html a {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
 #wrapper {
     min-height: 100%;
     position: relative;
@@ -39,7 +45,7 @@ html,body {
     height: 100%;
     margin-left: -220px;
     overflow-x: hidden; 
-    overflow-y: scroll;
+    overflow-y: hidden;
     background: #EEF0F0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -85,6 +91,7 @@ html,body {
     list-style: none;
     border-right: 1px solid #CBD4D7;
     height: 100%;
+    overflow:auto;
 }
 
 .sidebar-nav li {
