@@ -18,3 +18,6 @@ Copy and paste the following into a blank HTML document
 ##Some Notes
 - The conditional comments for IE 9 support, as well as the example script at the `<!-- SCRIPTS -->` section, uses a public CDN for open source libraries, [cdnjs.com](http://cdnjs.com/) that's sponsored by a reputable CDN provider, CloudFlare.
 - At the `<!-- SCRIPTS -->` section, the example script is jQuery 2.x, which doesn't support IE 8 and below. This HTML5 template only accomodates IE 9 and above, so this is an appropriate choice over jQuery 1.x.
+
+## License: Public Domain Dedication
+The source code excluding the references to external scripts is in the public domain using the [CC0 1.0](https://github.com/sixrevisions/html5-template/blob/master/LICENSE.md).
