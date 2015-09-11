@@ -8,7 +8,7 @@ This is a simple HTML5 template complete with a responsive sidebar and content a
 git clone https://github.com/jflavan/simple-responsive-sidebar-template.git /your/local/directory
 ```
 ### Option 2
-Copy and paste the following into a blank HTML document
+Copy and paste the index.html and style.css into a blank HTML page and stylesheet.
 
 
 ## Browser Support
